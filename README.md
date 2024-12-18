@@ -13,6 +13,7 @@ To get started in a VSCode Dev Container:
 1. Install the [Remote - Containers](https://code.visualstudio.com/docs/remote/containers) extension.  
 2. Clone this repository.  
 3. Open the repository in VSCode, and it will prompt you to reopen in the dev container. Alternatively, use a command to open the current folder in a dev container.  
+4. Write your OpenAI token to the text file `openai_token.txt` at the root of the repo.
 
 ---
 
