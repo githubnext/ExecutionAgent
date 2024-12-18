@@ -3,6 +3,10 @@
 /experimental_setups/
 /logs/
 /parsable_logs/
+/problems_memory/
+/search_logs/
+/model_logging_temp.txt
+/project_meta_data.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
