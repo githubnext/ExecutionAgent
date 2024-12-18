@@ -74,6 +74,10 @@ done
 
 # Set up API key, increment experiment, and prepare AI settings
 python3.10 setup_api_key.py  # Sets up the API key required for the scripts
+if [ $? -ne 0 ]; then
+  echo "API Key setup failed. Exiting..."
+  exit 1
+fi
 python3.10 experimental_setups/increment_experiment.py  # Updates experimental parameters
 python3.10 prepare_ai_settings.py  # Prepares the AI settings configuration
 
