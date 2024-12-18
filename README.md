@@ -61,9 +61,10 @@ pytest https://github.com/pytest-dev/pytest Python
 
 Run ExecutionAgent with the batch file:  
 ```bash
-./ExecutionAgent.sh /path/to/batch_file.txt
+./ExecutionAgent.sh --repo /path/to/batch_file.txt
 ```  
 ExecutionAgent will process each project listed in the file, performing the same steps as the single repository mode. The `-l` option can also be applied here by adding it to the command when running the script.
+NOTE: currently, `ExecutionAgent.sh` requires the `--repo` flag even in batch mode, and will error if not present.
 
 To show the results of the last experiment for a specific project, you can call:
 ```sh
