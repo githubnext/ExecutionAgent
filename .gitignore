@@ -1,6 +1,8 @@
-# Files related to OpenAI Tokens (Must force include in git)
-/autogpt/.env
-/run.sh
+# Experiments and Workspaces
+/execution_agent_workspace/
+/experimental_setups/
+/logs/
+/parsable_logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
