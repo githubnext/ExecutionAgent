@@ -89,8 +89,8 @@ def main():
 
     # Prepare the query for ask_chatgpt
     query = (
-        "the following would represent the sequence of commands and reasoning made by an LLM trying to install \"{}\" project from source code and execute test cases. "
-        "I want you to summarize the encountered problems and give advice for next attempt. Be precise and concise. Address the most important and critical issues (ignore non critical warnings and so). Your response should have one header: ### Feedback from previous installation attempts\n".format(project_name)
+        f"the following would represent the sequence of commands and reasoning made by an LLM trying to install \"{project_name}\" project from source code and execute test cases. "
+        "I want you to summarize the encountered problems and give advice for next attempt. Be precise and concise. Address the most important and critical issues (ignore non critical warnings and so). Your response should have one header: ### Feedback from previous installation attempts\n"
         f"+ {extracted_content}"
     )
     
