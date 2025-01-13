@@ -210,7 +210,7 @@ urllib3-secure-extra==0.1.0
 uvicorn==0.30.0
 vcrpy @ git+https://github.com/Significant-Gravitas/vcrpy.git@bfd15f9d06a516138b673cb481547f3352d9cc43
 versioneer==0.29
-virtualenv==20.26.2
+virtualenv==20.26.6
 wasabi==1.1.2
 watchdog==4.0.1
 wcwidth==0.2.13
